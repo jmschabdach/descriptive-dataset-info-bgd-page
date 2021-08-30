@@ -1,6 +1,6 @@
 # Description
 
-Neuroimaging dataset of 22q11 deletion syndrome patients.
+Neuroimaging dataset of patients with limited imaging pathology.
 
 # Counts
 
