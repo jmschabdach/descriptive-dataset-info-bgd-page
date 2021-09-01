@@ -35,21 +35,33 @@ Table 2. The number of patients older and younger than two years old can be seen
 | Attribute                                        | 22q11 CLIP | 22q11 non-CLIP | Undetermined | Totals |
 |--------------------------------------------------|------------|----------------|--------------|--------|
 | Number of patients <= 2 years old                |  40        |  36            |  22          |  98    |
-| Number of sessions for patients <= 2 years old   |  70        |  48            |  44          | 162    |
-|                                                  |            |                |              |        |
 | Number of patients > 2 years old                 |  70        |  46            |  52          | 168    |
-| Number of sessions for patients > 2 years old    |  91        |  60            |  90          | 241    |
-|                                                  |            |                |              |        |
 | Total number of patients                         | 110        |  82            |  74          | 266    |
+|                                                  |            |                |              |        |
+| Number of sessions for patients <= 2 years old   |  70        |  48            |  44          | 162    |
+| Number of sessions for patients > 2 years old    |  91        |  60            |  90          | 241    |
 | Total number of sessions                         | 161        | 108            | 134          | 403    |
 
-
-
 The total number of subjects (266) in Table 2 does not match the number of subjets in Table 1, but the number of sessions is consistent across these two tables. This discrepancy demonstrates the presence of multiple longitudinal scans for some patients. 
+
+We filtered the metadata to look at only the first scan per subject.
+
+Table 3. The number of patients older and younger than two years at the time of their first scan for CLIP, non-CLIP, and undetermined categories. In this table, the number of scans in each category is the same as the number of patients.
+
+| Attribute                                        | 22q11 CLIP | 22q11 non-CLIP | Undetermined | Totals |
+|--------------------------------------------------|------------|----------------|--------------|--------|
+| Number of patients <= 2 years old                |  40        |  36            |  22          |  98    |
+| Number of patients > 2 years old                 |  67        |  41            |  47          | 155    |
+| Total number of patients                         | 107        |  77            |  69          | 253    |
+
+Comparing Tables 2 and 3, we find that there are 3 22q11 CLIP subjects and 5 non-CLIP subjects who have scans before and after the age of 2 years.
+
 
 ## Final data set counts
 
 The following table is based on the data represented by the final two rows of the initial table on this page.
+
+Table 4. Counts of specific image things for the CLIP 22q11 subjects.
 
 | Attribute                                        | 22q11 CLIP | 22q11 non-CLIP | Undetermined | Totals |
 |--------------------------------------------------|------------|----------------|--------------|--------|
